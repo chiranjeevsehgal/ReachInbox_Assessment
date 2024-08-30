@@ -14,7 +14,7 @@ function Login() {
 
 	const handleGoogleSignUp = () => {
 		window.location.href =
-			"https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:5173/onebox";
+			"https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reach-inbox-assessment-chiranjeev.vercel.app/onebox";
 	};
     
     return (
