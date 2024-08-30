@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './pages/Login';
-import Onebox from './pages/OneBox';
+import OneBox from './pages/OneBox';
 
 function App() {
   
@@ -10,8 +10,8 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" >
-          <Route path="" element={<Login />} />
-          <Route path="/onebox" element={<Onebox />} />
+          <Route path="" element={<OneBox />} />
+          <Route path="/login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>
