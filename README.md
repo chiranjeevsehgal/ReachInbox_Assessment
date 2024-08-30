@@ -1,8 +1,19 @@
-# React + Vite
+# Setting up Assessment
+Below are the instructions to setup Assessment locally.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prerequisites
+Node.js and NPM must be installed on the system.
 
-Currently, two official plugins are available:
+## Cloning the Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+https://github.com/chiranjeevsehgal/ReachInbox_Assessment.git
+
+cd ReachInbox
+```
+
+## Running the Application
+
+  - Navigate to the root directory.
+  - Install dependencies: `npm install`.
+  - Start the application: `npm run dev`.
