@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from './pages/login';
-import Onebox from './pages/onebox';
+import Login from './pages/Login';
+import Onebox from './pages/OneBox';
 
 function App() {
   
